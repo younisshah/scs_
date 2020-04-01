@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        fooInput:
+          destination: streaming.notification.foo
+        fooWithHeaderInput:
+          destination: streaming.notification.foo.header
+      kafka:
+        binder:
+          brokers: localhost:9092
+          producer-properties:
+            key.serializer: org.apache.kafka.common.serialization.StringSerializer
+            value.serializer: org.springframework.kafka.support.serializer.JsonSerializer
