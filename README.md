@@ -1,16 +1,13 @@
-#### Spring for Apache Kafka Deep Dive
+#### Spring Cloud Stream
 
 We'll cover:
 
-1) Overview of Spring Cloud Stream and its programming model.
+1) Sync Producer
 
-2) Apache Kafka® integration in Spring Cloud Stream.
+2) Async Producer
 
-3) How Spring Cloud Stream makes application development easier for Kafka developers.
+3) Producer with Headers
 
-4) Stream processing using Kafka Streams and Spring Cloud Stream
+4) Messaging Gateway
 
-
-*Reference:*
-
-[Spring for Apache Kafka Deep Dive – Part 2: Apache Kafka and Spring Cloud Stream](https://www.confluent.io/blog/spring-for-apache-kafka-deep-dive-part-2-apache-kafka-spring-cloud-stream/)
+5) Consumers
